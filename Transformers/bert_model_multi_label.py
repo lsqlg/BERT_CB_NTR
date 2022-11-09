@@ -14,6 +14,7 @@ logging.basicConfig(level=logging.ERROR)
 import numpy as np
 import json
 import pickle
+import os
 
 # Source Data
 dataset = "bert_R21578"   #[ 'R21578', 'RCV1-V2', 'Econbiz', 'Amazon-531', 'DBPedia-298','NYT AC','GoEmotions']
